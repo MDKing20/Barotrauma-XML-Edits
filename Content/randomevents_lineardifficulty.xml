@@ -130,8 +130,26 @@ MonsterEvent
 
     <!-- Don't populate the abyss -->
 
+    <!--10% or 1,5 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.10" minmissiontime="90" minintensity="0.0" maxintensity="0.1">
+      <MonsterEvent characterfile="Crawler" minamount="3" maxamount="6" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="CrawlerHusk" minamount="2" maxamount="6" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="Spineling" minamount="2" maxamount="9" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="Mudraptor_unarmored" minamount="1" maxamount="7" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="Hammerhead" amount="3" spawntype="mainpath,sidepath" />
+    </EventSet>
+
     <!--20% or 3 min-->
     <EventSet chooserandom="true" mindistancetraveled="0.20" minmissiontime="180" minintensity="0.0" maxintensity="0.1">
+      <MonsterEvent characterfile="Crawler" minamount="4" maxamount="9" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="CrawlerHusk" minamount="3" maxamount="9" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="Spineling" minamount="3" maxamount="12" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="Mudraptor_unarmored" minamount="2" maxamount="10" spawntype="mainpath,sidepath" />
+      <MonsterEvent characterfile="Hammerhead" amount="5" spawntype="mainpath,sidepath" />
+    </EventSet>
+
+    <!--30% or 6.5 min-->
+    <EventSet chooserandom="true" mindistancetraveled="0.30" minmissiontime="390" minintensity="0.0" maxintensity="0.1">
       <MonsterEvent characterfile="Crawler" minamount="2" maxamount="3" spawntype="mainpath,sidepath" />
       <MonsterEvent characterfile="CrawlerHusk" minamount="2" maxamount="3" spawntype="mainpath,sidepath" />
       <MonsterEvent characterfile="Spineling" minamount="2" maxamount="3" spawntype="mainpath,sidepath" />
