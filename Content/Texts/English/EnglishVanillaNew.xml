@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+
+<!-- When adding new text, do it so at the bottom under the 'New values' & 'Modified values' sections. If it's a new tag entirely, put it under the new additions one; If it's an update to an existing value, put it under the changed values one. -->
+<!-- DO NOT EDIT EXISTING TAGS FOR ALREADY TRANSLATED LINES -> if you need a new tag for something, add it under the 'New values' header and comment if there's some other tag that should be replaced -->
+
+<!-- Modified values April 25 (spring update hotfix 1) -->
+<talentdescription.bootcamp>Gain an additional [xpamount]% experience, until you have obtained [level] talent points.\nWhen you have [level] or more talent points, gain +[skillamount] [skilltype] instead.</talentdescription.bootcamp>
+<talentdescription.protectandserve>Gain [xpbonus]% bonus XP and [repbonus]% more reputation when completing a [missiontype] mission.</talentdescription.protectandserve>
+<talentdescription.camaraderienew>While no crew member has died during a mission, gain [extraexperience]% bonus XP and [resistanceamount]% ‖color:gui.orange‖Physical Damage Resistance‖end‖.</talentdescription.camaraderienew>
+<talentdescription.junctionjunkie>Gain one-time rewards for repairing a certain amount of ‖color:gui.orange‖electrical devices‖end‖:</talentdescription.junctionjunkie>
+<talentdescription.machinemaniac>Gain one-time rewards for repairing a certain amount of ‖color:gui.orange‖mechanical devices‖end‖:</talentdescription.machinemaniac>
+<talentdescription.warstories>At the end of each round, if you killed any enemies, create a [book] in your inventory. Reading it gives [skill] skill to the reader; the skill gain is determined by the amount of enemies killed during the round.</talentdescription.warstories>
+<talentdescription.nobodyimportantdies>Medical items you apply are +[amount]% more potent when applied to non-assistants. Treating assistants is [penalty]% less effective.</talentdescription.nobodyimportantdies>
+<talentdescription.healthinsurance>If your health has dropped below [amount]% during a mission, gain [money] mk.</talentdescription.healthinsurance>
+  
+<!-- New values feature/layer-improvements -->
+<editor.layer.headervisible>Visibility</editor.layer.headervisible>
+
+<!-- New values feature/ros-->
+<CantAccessEOSSettingsInMP>Epic Online Services settings cannot be changed when a multiplayer session is active.</CantAccessEOSSettingsInMP>
+<CannotJoinSteamServer.SteamNotInitialized>The provided address seems to be a Steam ID. Cannot join a Steam ID when not connected to Steam.</CannotJoinSteamServer.SteamNotInitialized>
+<EosInterface.Core.InitError.NativeDllLoadFailed>Loading the native Epic Online Services DLL failed.</EosInterface.Core.InitError.NativeDllLoadFailed>
+
+<!-- New values feature/net-struct-extensions -->
+<disconnectreason.malformeddata>Malformed network message detected.</disconnectreason.malformeddata>
+
+<!-- New values feature/lockable-circuit-boxes -->
+<circuitboxlocked>This circuit box is locked.</circuitboxlocked>
+<sp.CircuitBox.Locked.name>Locked</sp.CircuitBox.Locked.name>
+<sp.CircuitBox.Locked.description>Locked circuit boxes can only be viewed and not interacted with.</sp.CircuitBox.Locked.description>
+
+</infotexts>
